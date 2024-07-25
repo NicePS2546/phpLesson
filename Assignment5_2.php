@@ -1,6 +1,4 @@
-
 <?php 
-
        Class ExampleFunction{
         function gradeCheck($name,$score){
             $grade = '';
@@ -48,5 +46,9 @@
        echo "<br>";
        echo "<br>";
        echo "<br>";
+       
        $function->factorial(7);
-?>
+       $function->factorial(8);
+       $function->factorial(5);
+       $function->factorial(9);
+       ?>
